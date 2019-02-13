@@ -1,0 +1,15 @@
+{
+    "name": "lastcall/drupal_logging",
+    "description": "Send your Drupal logs where you want (Papertrail for now)",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/monolog": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LastCall\\DrupalLogging\\": "src/"
+        }
+    }
+}
